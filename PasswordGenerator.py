@@ -16,13 +16,13 @@ def get_password_length():
 length = get_password_length()
 
 # Remainder of password generation options
-upper = int(bool(input("Enter 1 if capital letters are desired or 0 if not desired: ")))
+upper = int(bool(input("Include uppercase letters? (1 for yes, 0 for no): ")))
 if upper:
     characters += string.ascii_uppercase
-lower = int(bool(input("Enter 1 if lower case is desired or 0 if not desired: ")))
+lower = int(bool(input("Include lowercase letters? (1 for yes, 0 for no): ")))
 if lower:
     characters += string.ascii_lowercase
-punctuation = int(bool(input("Enter 1 if punctuation is desired or 0 if not desired: ")))
+punctuation = int(bool(input("Include special characters? (1 for yes, 0 for no): ")))
 if punctuation:
     characters += string.punctuation
 
