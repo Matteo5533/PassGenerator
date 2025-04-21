@@ -45,5 +45,3 @@ Your password is: A9f!kW1$Lp
 Feel free to fork this repository and submit pull requests for any improvements or features!
 
 ---
-
-Let me know if you'd like any additional sections or modifications!
